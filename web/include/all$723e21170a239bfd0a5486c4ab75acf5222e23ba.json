@@ -122,6 +122,468 @@
                 }
             }
         },
+        "ilab/ilab-aws-sdk": {
+            "v0.1.0": {
+                "name": "ilab/ilab-aws-sdk",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/ilab-aws-sdk.git",
+                    "reference": "a4f72f8f36e8a0b4ade8de5027adf2bfae204582"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/ilab-aws-sdk/zipball/a4f72f8f36e8a0b4ade8de5027adf2bfae204582",
+                    "reference": "a4f72f8f36e8a0b4ade8de5027adf2bfae204582",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "~5.3|~6.0.1|~6.1",
+                    "guzzlehttp/promises": "~1.0",
+                    "guzzlehttp/psr7": "~1.3.1",
+                    "mtdowling/jmespath.php": "~2.2",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "andrewsville/php-token-reflection": "^1.4",
+                    "aws/aws-php-sns-message-validator": "~1.0",
+                    "behat/behat": "~3.0",
+                    "doctrine/cache": "~1.4",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-openssl": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "nette/neon": "^2.3",
+                    "phpunit/phpunit": "~4.0|~5.0",
+                    "psr/cache": "^1.0"
+                },
+                "suggest": {
+                    "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                    "doctrine/cache": "To use the DoctrineCacheAdapter",
+                    "ext-curl": "To send requests using cURL",
+                    "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages"
+                },
+                "time": "2016-10-13T16:17:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Aws\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ILAB_Aws\\Test\\": "tests/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Amazon Web Services",
+                        "homepage": "http://aws.amazon.com"
+                    }
+                ],
+                "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+                "homepage": "http://aws.amazon.com/sdkforphp",
+                "keywords": [
+                    "amazon",
+                    "aws",
+                    "cloud",
+                    "dynamodb",
+                    "ec2",
+                    "glacier",
+                    "s3",
+                    "sdk"
+                ],
+                "support": {
+                    "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+                    "issues": "https://github.com/aws/aws-sdk-php/issues",
+                    "source": "https://github.com/Interfacelab/ilab-aws-sdk/tree/v0.1.0"
+                }
+            },
+            "v0.1.1": {
+                "name": "ilab/ilab-aws-sdk",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/ilab-aws-sdk.git",
+                    "reference": "038d0dce496223ec11434fba81966ce496444d38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/ilab-aws-sdk/zipball/038d0dce496223ec11434fba81966ce496444d38",
+                    "reference": "038d0dce496223ec11434fba81966ce496444d38",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
+                    "guzzlehttp/promises": "~1.0",
+                    "guzzlehttp/psr7": "^1.4.1",
+                    "mtdowling/jmespath.php": "~2.2",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "andrewsville/php-token-reflection": "^1.4",
+                    "aws/aws-php-sns-message-validator": "~1.0",
+                    "behat/behat": "~3.0",
+                    "doctrine/cache": "~1.4",
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-openssl": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "nette/neon": "^2.3",
+                    "phpunit/phpunit": "^4.8.35|^5.4.0",
+                    "psr/cache": "^1.0"
+                },
+                "suggest": {
+                    "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                    "doctrine/cache": "To use the DoctrineCacheAdapter",
+                    "ext-curl": "To send requests using cURL",
+                    "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages"
+                },
+                "time": "2017-05-01T10:02:47+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Aws\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ILAB_Aws\\Test\\": "tests/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Amazon Web Services",
+                        "homepage": "http://aws.amazon.com"
+                    }
+                ],
+                "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+                "homepage": "http://aws.amazon.com/sdkforphp",
+                "keywords": [
+                    "amazon",
+                    "aws",
+                    "cloud",
+                    "dynamodb",
+                    "ec2",
+                    "glacier",
+                    "s3",
+                    "sdk"
+                ],
+                "support": {
+                    "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+                    "issues": "https://github.com/ilab/ilab-aws-sdk/issues",
+                    "source": "https://github.com/Interfacelab/ilab-aws-sdk/tree/v0.1.1"
+                }
+            },
+            "v0.1.2": {
+                "name": "ilab/ilab-aws-sdk",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/ilab-aws-sdk.git",
+                    "reference": "d31ca9cc6e24a7da4ce320979fae8670174cb7c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/ilab-aws-sdk/zipball/d31ca9cc6e24a7da4ce320979fae8670174cb7c9",
+                    "reference": "d31ca9cc6e24a7da4ce320979fae8670174cb7c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
+                    "guzzlehttp/promises": "~1.0",
+                    "guzzlehttp/psr7": "^1.4.1",
+                    "mtdowling/jmespath.php": "~2.2",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "andrewsville/php-token-reflection": "^1.4",
+                    "aws/aws-php-sns-message-validator": "~1.0",
+                    "behat/behat": "~3.0",
+                    "doctrine/cache": "~1.4",
+                    "ext-dom": "*",
+                    "ext-openssl": "*",
+                    "nette/neon": "^2.3",
+                    "phpunit/phpunit": "^4.8.35|^5.4.0",
+                    "psr/cache": "^1.0"
+                },
+                "suggest": {
+                    "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                    "doctrine/cache": "To use the DoctrineCacheAdapter",
+                    "ext-curl": "To send requests using cURL",
+                    "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages"
+                },
+                "time": "2017-09-11T04:00:03+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Aws\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ILAB_Aws\\Test\\": "tests/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Amazon Web Services",
+                        "homepage": "http://aws.amazon.com"
+                    }
+                ],
+                "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+                "homepage": "http://aws.amazon.com/sdkforphp",
+                "keywords": [
+                    "amazon",
+                    "aws",
+                    "cloud",
+                    "dynamodb",
+                    "ec2",
+                    "glacier",
+                    "s3",
+                    "sdk"
+                ],
+                "support": {
+                    "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+                    "issues": "https://github.com/ilab/ilab-aws-sdk/issues",
+                    "source": "https://github.com/Interfacelab/ilab-aws-sdk/tree/v0.1.2"
+                }
+            },
+            "v0.1.4": {
+                "name": "ilab/ilab-aws-sdk",
+                "version": "v0.1.4",
+                "version_normalized": "0.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/ilab-aws-sdk.git",
+                    "reference": "4ee961b2deba966b9ed3a51de6907e8f89384bf0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/ilab-aws-sdk/zipball/4ee961b2deba966b9ed3a51de6907e8f89384bf0",
+                    "reference": "4ee961b2deba966b9ed3a51de6907e8f89384bf0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
+                    "guzzlehttp/promises": "~1.0",
+                    "guzzlehttp/psr7": "^1.4.1",
+                    "mtdowling/jmespath.php": "~2.2",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "andrewsville/php-token-reflection": "^1.4",
+                    "aws/aws-php-sns-message-validator": "~1.0",
+                    "behat/behat": "~3.0",
+                    "doctrine/cache": "~1.4",
+                    "ext-dom": "*",
+                    "ext-openssl": "*",
+                    "nette/neon": "^2.3",
+                    "phpunit/phpunit": "^4.8.35|^5.4.0",
+                    "psr/cache": "^1.0"
+                },
+                "suggest": {
+                    "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                    "doctrine/cache": "To use the DoctrineCacheAdapter",
+                    "ext-curl": "To send requests using cURL",
+                    "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages"
+                },
+                "time": "2017-09-13T03:37:40+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Aws\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ILAB_Aws\\Test\\": "tests/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Amazon Web Services",
+                        "homepage": "http://aws.amazon.com"
+                    }
+                ],
+                "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+                "homepage": "http://aws.amazon.com/sdkforphp",
+                "keywords": [
+                    "amazon",
+                    "aws",
+                    "cloud",
+                    "dynamodb",
+                    "ec2",
+                    "glacier",
+                    "s3",
+                    "sdk"
+                ],
+                "support": {
+                    "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+                    "issues": "https://github.com/ilab/ilab-aws-sdk/issues",
+                    "source": "https://github.com/Interfacelab/ilab-aws-sdk/tree/v0.1.4"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/ilab-aws-sdk",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/ilab-aws-sdk.git",
+                    "reference": "4ee961b2deba966b9ed3a51de6907e8f89384bf0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/ilab-aws-sdk/zipball/4ee961b2deba966b9ed3a51de6907e8f89384bf0",
+                    "reference": "4ee961b2deba966b9ed3a51de6907e8f89384bf0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pcre": "*",
+                    "ext-simplexml": "*",
+                    "ext-spl": "*",
+                    "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
+                    "guzzlehttp/promises": "~1.0",
+                    "guzzlehttp/psr7": "^1.4.1",
+                    "mtdowling/jmespath.php": "~2.2",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "andrewsville/php-token-reflection": "^1.4",
+                    "aws/aws-php-sns-message-validator": "~1.0",
+                    "behat/behat": "~3.0",
+                    "doctrine/cache": "~1.4",
+                    "ext-dom": "*",
+                    "ext-openssl": "*",
+                    "nette/neon": "^2.3",
+                    "phpunit/phpunit": "^4.8.35|^5.4.0",
+                    "psr/cache": "^1.0"
+                },
+                "suggest": {
+                    "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                    "doctrine/cache": "To use the DoctrineCacheAdapter",
+                    "ext-curl": "To send requests using cURL",
+                    "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages"
+                },
+                "time": "2017-09-13T03:37:40+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Aws\\": "src/"
+                    },
+                    "files": [
+                        "src/functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ILAB_Aws\\Test\\": "tests/"
+                    },
+                    "classmap": [
+                        "build/"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Amazon Web Services",
+                        "homepage": "http://aws.amazon.com"
+                    }
+                ],
+                "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+                "homepage": "http://aws.amazon.com/sdkforphp",
+                "keywords": [
+                    "amazon",
+                    "aws",
+                    "cloud",
+                    "dynamodb",
+                    "ec2",
+                    "glacier",
+                    "s3",
+                    "sdk"
+                ],
+                "support": {
+                    "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+                    "issues": "https://github.com/ilab/ilab-aws-sdk/issues",
+                    "source": "https://github.com/Interfacelab/ilab-aws-sdk/tree/v0.1.4"
+                }
+            }
+        },
         "ilab/illuminate-container": {
             "v5.5.2": {
                 "name": "ilab/illuminate-container",
