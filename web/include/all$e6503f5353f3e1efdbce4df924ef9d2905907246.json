@@ -1,0 +1,762 @@
+{
+    "packages": {
+        "ilab/blade": {
+            "4.0.0": {
+                "name": "ilab/blade",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/blade.git",
+                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/blade/zipball/8a2b6b0684c3a6002260c056567a6c0fa8f21102",
+                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-events": ">=5.5,<5.6",
+                    "ilab/illuminate-filesystem": ">=5.5,<5.6",
+                    "ilab/illuminate-view": ">=5.5,<5.6",
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "duncan3dc/object-intruder": "^0.1.0",
+                    "mockery/mockery": "^0.9.5",
+                    "phpunit/phpunit": "^6.0",
+                    "satooshi/php-coveralls": "^1.0"
+                },
+                "time": "2017-09-16T02:00:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ILAB\\Laravel\\": "src/",
+                        "ILAB\\LaravelTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Duncan",
+                        "email": "git@duncanc.co.uk",
+                        "homepage": "https://github.com/duncan3dc",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Use Laravel Blade templates without the full Laravel framework",
+                "homepage": "https://github.com/ilab/blade",
+                "keywords": [
+                    "laravel",
+                    "template",
+                    "templating",
+                    "views"
+                ],
+                "support": {
+                    "source": "https://github.com/Interfacelab/blade/tree/4.0.0",
+                    "issues": "https://github.com/Interfacelab/blade/issues"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/blade",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/blade.git",
+                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/blade/zipball/8a2b6b0684c3a6002260c056567a6c0fa8f21102",
+                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-events": ">=5.5,<5.6",
+                    "ilab/illuminate-filesystem": ">=5.5,<5.6",
+                    "ilab/illuminate-view": ">=5.5,<5.6",
+                    "php": "^7.0"
+                },
+                "require-dev": {
+                    "duncan3dc/object-intruder": "^0.1.0",
+                    "mockery/mockery": "^0.9.5",
+                    "phpunit/phpunit": "^6.0",
+                    "satooshi/php-coveralls": "^1.0"
+                },
+                "time": "2017-09-16T02:00:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "ILAB\\Laravel\\": "src/",
+                        "ILAB\\LaravelTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Duncan",
+                        "email": "git@duncanc.co.uk",
+                        "homepage": "https://github.com/duncan3dc",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Use Laravel Blade templates without the full Laravel framework",
+                "homepage": "https://github.com/ilab/blade",
+                "keywords": [
+                    "laravel",
+                    "template",
+                    "templating",
+                    "views"
+                ],
+                "support": {
+                    "source": "https://github.com/Interfacelab/blade/tree/4.0.0",
+                    "issues": "https://github.com/Interfacelab/blade/issues"
+                }
+            }
+        },
+        "ilab/illuminate-container": {
+            "v5.5.2": {
+                "name": "ilab/illuminate-container",
+                "version": "v5.5.2",
+                "version_normalized": "5.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-container.git",
+                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-container/zipball/1178e8a9c53bcd3961afe67afe51ffc76861112c",
+                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "php": ">=7.0",
+                    "psr/container": "~1.0"
+                },
+                "time": "2017-09-16T02:23:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Container\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Container package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/illuminate-container",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-container.git",
+                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-container/zipball/1178e8a9c53bcd3961afe67afe51ffc76861112c",
+                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "php": ">=7.0",
+                    "psr/container": "~1.0"
+                },
+                "time": "2017-09-16T02:23:32+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Container\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Container package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            }
+        },
+        "ilab/illuminate-contracts": {
+            "v5.5.2": {
+                "name": "ilab/illuminate-contracts",
+                "version": "v5.5.2",
+                "version_normalized": "5.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-contracts.git",
+                    "reference": "c3c35979059f49d76f84f581cc486eb8645d1f41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-contracts/zipball/c3c35979059f49d76f84f581cc486eb8645d1f41",
+                    "reference": "c3c35979059f49d76f84f581cc486eb8645d1f41",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "psr/container": "~1.0",
+                    "psr/simple-cache": "~1.0"
+                },
+                "time": "2017-09-16T01:29:25+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Contracts\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Contracts package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/illuminate-contracts",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-contracts.git",
+                    "reference": "c3c35979059f49d76f84f581cc486eb8645d1f41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-contracts/zipball/c3c35979059f49d76f84f581cc486eb8645d1f41",
+                    "reference": "c3c35979059f49d76f84f581cc486eb8645d1f41",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "psr/container": "~1.0",
+                    "psr/simple-cache": "~1.0"
+                },
+                "time": "2017-09-16T01:29:25+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Contracts\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Contracts package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            }
+        },
+        "ilab/illuminate-events": {
+            "v5.5.2": {
+                "name": "ilab/illuminate-events",
+                "version": "v5.5.2",
+                "version_normalized": "5.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-events.git",
+                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-events/zipball/1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
+                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-container": ">=5.5,<5.6",
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-support": ">=5.5,<5.6",
+                    "php": ">=7.0"
+                },
+                "time": "2017-09-16T02:13:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Events\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Events package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/illuminate-events",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-events.git",
+                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-events/zipball/1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
+                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-container": ">=5.5,<5.6",
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-support": ">=5.5,<5.6",
+                    "php": ">=7.0"
+                },
+                "time": "2017-09-16T02:13:01+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Events\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Events package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            }
+        },
+        "ilab/illuminate-filesystem": {
+            "v5.5.2": {
+                "name": "ilab/illuminate-filesystem",
+                "version": "v5.5.2",
+                "version_normalized": "5.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-filesystem.git",
+                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-filesystem/zipball/36332c545f5a0a651224850d3c3a0602c06930c5",
+                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-support": ">=5.5,<5.6",
+                    "php": ">=7.0",
+                    "symfony/finder": "~3.3"
+                },
+                "suggest": {
+                    "league/flysystem": "Required to use the Flysystem local and FTP drivers (~1.0).",
+                    "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
+                    "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
+                },
+                "time": "2017-09-16T02:24:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Filesystem\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Filesystem package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/illuminate-filesystem",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-filesystem.git",
+                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-filesystem/zipball/36332c545f5a0a651224850d3c3a0602c06930c5",
+                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-support": ">=5.5,<5.6",
+                    "php": ">=7.0",
+                    "symfony/finder": "~3.3"
+                },
+                "suggest": {
+                    "league/flysystem": "Required to use the Flysystem local and FTP drivers (~1.0).",
+                    "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
+                    "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
+                },
+                "time": "2017-09-16T02:24:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Filesystem\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Filesystem package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            }
+        },
+        "ilab/illuminate-support": {
+            "v5.5.2": {
+                "name": "ilab/illuminate-support",
+                "version": "v5.5.2",
+                "version_normalized": "5.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-support.git",
+                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-support/zipball/f418dea5ea86f85d8a46ae038028f9723f3f60c1",
+                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "~1.1",
+                    "ext-mbstring": "*",
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "nesbot/carbon": "^1.20",
+                    "php": ">=7.0"
+                },
+                "replace": {
+                    "tightenco/collect": "self.version"
+                },
+                "suggest": {
+                    "illuminate/filesystem": "Required to use the composer class (5.2.*).",
+                    "symfony/process": "Required to use the composer class (~3.3).",
+                    "symfony/var-dumper": "Required to use the dd function (~3.3)."
+                },
+                "time": "2017-09-16T02:24:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Support\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Support package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/illuminate-support",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-support.git",
+                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-support/zipball/f418dea5ea86f85d8a46ae038028f9723f3f60c1",
+                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/inflector": "~1.1",
+                    "ext-mbstring": "*",
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "nesbot/carbon": "^1.20",
+                    "php": ">=7.0"
+                },
+                "replace": {
+                    "tightenco/collect": "self.version"
+                },
+                "suggest": {
+                    "illuminate/filesystem": "Required to use the composer class (5.2.*).",
+                    "symfony/process": "Required to use the composer class (~3.3).",
+                    "symfony/var-dumper": "Required to use the dd function (~3.3)."
+                },
+                "time": "2017-09-16T02:24:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\Support\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate Support package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            }
+        },
+        "ilab/illuminate-view": {
+            "v5.5.2": {
+                "name": "ilab/illuminate-view",
+                "version": "v5.5.2",
+                "version_normalized": "5.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-view.git",
+                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-view/zipball/40875eb7b695fea32f6714551293bb6939a414e5",
+                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-container": ">=5.5,<5.6",
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-events": ">=5.5,<5.6",
+                    "ilab/illuminate-filesystem": ">=5.5,<5.6",
+                    "ilab/illuminate-support": ">=5.5,<5.6",
+                    "php": ">=7.0",
+                    "symfony/debug": "~3.3"
+                },
+                "time": "2017-09-16T02:25:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\View\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate View package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            },
+            "dev-master": {
+                "name": "ilab/illuminate-view",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Interfacelab/illuminate-view.git",
+                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-view/zipball/40875eb7b695fea32f6714551293bb6939a414e5",
+                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ilab/illuminate-container": ">=5.5,<5.6",
+                    "ilab/illuminate-contracts": ">=5.5,<5.6",
+                    "ilab/illuminate-events": ">=5.5,<5.6",
+                    "ilab/illuminate-filesystem": ">=5.5,<5.6",
+                    "ilab/illuminate-support": ">=5.5,<5.6",
+                    "php": ">=7.0",
+                    "symfony/debug": "~3.3"
+                },
+                "time": "2017-09-16T02:25:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "5.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ILAB_Illuminate\\View\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Taylor Otwell",
+                        "email": "taylor@laravel.com"
+                    }
+                ],
+                "description": "The Illuminate View package.",
+                "homepage": "https://laravel.com",
+                "support": {
+                    "issues": "https://github.com/laravel/framework/issues",
+                    "source": "https://github.com/laravel/framework"
+                }
+            }
+        }
+    }
+}
