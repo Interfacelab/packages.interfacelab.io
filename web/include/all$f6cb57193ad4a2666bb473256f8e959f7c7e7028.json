@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/blade.git",
-                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102"
+                    "reference": "f1d50cadc26ece10691329817d78d62da8e120c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/blade/zipball/8a2b6b0684c3a6002260c056567a6c0fa8f21102",
-                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102",
+                    "url": "https://api.github.com/repos/Interfacelab/blade/zipball/f1d50cadc26ece10691329817d78d62da8e120c5",
+                    "reference": "f1d50cadc26ece10691329817d78d62da8e120c5",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,7 @@
                     "phpunit/phpunit": "^6.0",
                     "satooshi/php-coveralls": "^1.0"
                 },
-                "time": "2017-09-16T02:00:48+00:00",
+                "time": "2017-09-17T03:45:50+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -68,12 +68,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/blade.git",
-                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102"
+                    "reference": "f1d50cadc26ece10691329817d78d62da8e120c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/blade/zipball/8a2b6b0684c3a6002260c056567a6c0fa8f21102",
-                    "reference": "8a2b6b0684c3a6002260c056567a6c0fa8f21102",
+                    "url": "https://api.github.com/repos/Interfacelab/blade/zipball/f1d50cadc26ece10691329817d78d62da8e120c5",
+                    "reference": "f1d50cadc26ece10691329817d78d62da8e120c5",
                     "shasum": ""
                 },
                 "require": {
@@ -89,7 +89,7 @@
                     "phpunit/phpunit": "^6.0",
                     "satooshi/php-coveralls": "^1.0"
                 },
-                "time": "2017-09-16T02:00:48+00:00",
+                "time": "2017-09-17T03:45:50+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -592,12 +592,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-container.git",
-                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c"
+                    "reference": "6da5be45cc741f13c80d792f5dc118aea442e56e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-container/zipball/1178e8a9c53bcd3961afe67afe51ffc76861112c",
-                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-container/zipball/6da5be45cc741f13c80d792f5dc118aea442e56e",
+                    "reference": "6da5be45cc741f13c80d792f5dc118aea442e56e",
                     "shasum": ""
                 },
                 "require": {
@@ -605,7 +605,7 @@
                     "php": ">=7.0",
                     "psr/container": "~1.0"
                 },
-                "time": "2017-09-16T02:23:32+00:00",
+                "time": "2017-09-17T03:47:45+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -640,12 +640,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-container.git",
-                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c"
+                    "reference": "6da5be45cc741f13c80d792f5dc118aea442e56e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-container/zipball/1178e8a9c53bcd3961afe67afe51ffc76861112c",
-                    "reference": "1178e8a9c53bcd3961afe67afe51ffc76861112c",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-container/zipball/6da5be45cc741f13c80d792f5dc118aea442e56e",
+                    "reference": "6da5be45cc741f13c80d792f5dc118aea442e56e",
                     "shasum": ""
                 },
                 "require": {
@@ -653,7 +653,7 @@
                     "php": ">=7.0",
                     "psr/container": "~1.0"
                 },
-                "time": "2017-09-16T02:23:32+00:00",
+                "time": "2017-09-17T03:47:45+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -788,12 +788,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-events.git",
-                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c"
+                    "reference": "ccebb05565b83dafddcfacd3287fd7158454d417"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-events/zipball/1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
-                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-events/zipball/ccebb05565b83dafddcfacd3287fd7158454d417",
+                    "reference": "ccebb05565b83dafddcfacd3287fd7158454d417",
                     "shasum": ""
                 },
                 "require": {
@@ -802,7 +802,7 @@
                     "ilab/illuminate-support": ">=5.5,<5.6",
                     "php": ">=7.0"
                 },
-                "time": "2017-09-16T02:13:01+00:00",
+                "time": "2017-09-17T03:48:31+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -837,12 +837,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-events.git",
-                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c"
+                    "reference": "ccebb05565b83dafddcfacd3287fd7158454d417"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-events/zipball/1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
-                    "reference": "1304deadd08f73c4ceae6dd9c8735c7fa8f8ff5c",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-events/zipball/ccebb05565b83dafddcfacd3287fd7158454d417",
+                    "reference": "ccebb05565b83dafddcfacd3287fd7158454d417",
                     "shasum": ""
                 },
                 "require": {
@@ -851,7 +851,7 @@
                     "ilab/illuminate-support": ">=5.5,<5.6",
                     "php": ">=7.0"
                 },
-                "time": "2017-09-16T02:13:01+00:00",
+                "time": "2017-09-17T03:48:31+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -888,12 +888,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-filesystem.git",
-                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5"
+                    "reference": "332ce25551dac0349046363220dc767b49d360f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-filesystem/zipball/36332c545f5a0a651224850d3c3a0602c06930c5",
-                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-filesystem/zipball/332ce25551dac0349046363220dc767b49d360f0",
+                    "reference": "332ce25551dac0349046363220dc767b49d360f0",
                     "shasum": ""
                 },
                 "require": {
@@ -907,7 +907,7 @@
                     "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
                     "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
                 },
-                "time": "2017-09-16T02:24:15+00:00",
+                "time": "2017-09-17T03:49:50+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -942,12 +942,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-filesystem.git",
-                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5"
+                    "reference": "332ce25551dac0349046363220dc767b49d360f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-filesystem/zipball/36332c545f5a0a651224850d3c3a0602c06930c5",
-                    "reference": "36332c545f5a0a651224850d3c3a0602c06930c5",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-filesystem/zipball/332ce25551dac0349046363220dc767b49d360f0",
+                    "reference": "332ce25551dac0349046363220dc767b49d360f0",
                     "shasum": ""
                 },
                 "require": {
@@ -961,7 +961,7 @@
                     "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
                     "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
                 },
-                "time": "2017-09-16T02:24:15+00:00",
+                "time": "2017-09-17T03:49:50+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -998,12 +998,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-support.git",
-                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1"
+                    "reference": "8281f6a730c7b267238078e339da63fffb25d09c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-support/zipball/f418dea5ea86f85d8a46ae038028f9723f3f60c1",
-                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-support/zipball/8281f6a730c7b267238078e339da63fffb25d09c",
+                    "reference": "8281f6a730c7b267238078e339da63fffb25d09c",
                     "shasum": ""
                 },
                 "require": {
@@ -1021,7 +1021,7 @@
                     "symfony/process": "Required to use the composer class (~3.3).",
                     "symfony/var-dumper": "Required to use the dd function (~3.3)."
                 },
-                "time": "2017-09-16T02:24:44+00:00",
+                "time": "2017-09-17T03:46:53+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1059,12 +1059,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-support.git",
-                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1"
+                    "reference": "8281f6a730c7b267238078e339da63fffb25d09c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-support/zipball/f418dea5ea86f85d8a46ae038028f9723f3f60c1",
-                    "reference": "f418dea5ea86f85d8a46ae038028f9723f3f60c1",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-support/zipball/8281f6a730c7b267238078e339da63fffb25d09c",
+                    "reference": "8281f6a730c7b267238078e339da63fffb25d09c",
                     "shasum": ""
                 },
                 "require": {
@@ -1082,7 +1082,7 @@
                     "symfony/process": "Required to use the composer class (~3.3).",
                     "symfony/var-dumper": "Required to use the dd function (~3.3)."
                 },
-                "time": "2017-09-16T02:24:44+00:00",
+                "time": "2017-09-17T03:46:53+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1122,12 +1122,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-view.git",
-                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5"
+                    "reference": "c0775c23d5e707e363c087285993edb86b2b0e1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-view/zipball/40875eb7b695fea32f6714551293bb6939a414e5",
-                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-view/zipball/c0775c23d5e707e363c087285993edb86b2b0e1d",
+                    "reference": "c0775c23d5e707e363c087285993edb86b2b0e1d",
                     "shasum": ""
                 },
                 "require": {
@@ -1139,7 +1139,7 @@
                     "php": ">=7.0",
                     "symfony/debug": "~3.3"
                 },
-                "time": "2017-09-16T02:25:15+00:00",
+                "time": "2017-09-17T03:50:39+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1174,12 +1174,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Interfacelab/illuminate-view.git",
-                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5"
+                    "reference": "c0775c23d5e707e363c087285993edb86b2b0e1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Interfacelab/illuminate-view/zipball/40875eb7b695fea32f6714551293bb6939a414e5",
-                    "reference": "40875eb7b695fea32f6714551293bb6939a414e5",
+                    "url": "https://api.github.com/repos/Interfacelab/illuminate-view/zipball/c0775c23d5e707e363c087285993edb86b2b0e1d",
+                    "reference": "c0775c23d5e707e363c087285993edb86b2b0e1d",
                     "shasum": ""
                 },
                 "require": {
@@ -1191,7 +1191,7 @@
                     "php": ">=7.0",
                     "symfony/debug": "~3.3"
                 },
-                "time": "2017-09-16T02:25:15+00:00",
+                "time": "2017-09-17T03:50:39+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
